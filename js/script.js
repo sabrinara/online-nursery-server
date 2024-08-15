@@ -1,75 +1,75 @@
 const data = [
     {
         id: 1,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
+        imageUrl: "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2021/12/banner-10-7.jpg",
         title: "Leopard Lily",
         price: 200,
         rating: 2.5,
         category: "Indoor plant",
-        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        details: "Leopard Lily is known for its striking spotted leaves and easy maintenance, making it a popular choice for indoor spaces."
     },
     {
         id: 2,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Calathea Plant",
+        imageUrl: "https://wpbingosite.com/wordpress/flacio/wp-content/themes/flacio/images/newsletter-image.jpg",
+        title: "Variety Plant",
         price: 28,
         rating: 3.5,
         category: "Indoor plant",
-
-details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."    },
+        details: "This variety plant offers a mix of textures and colors, perfect for adding diversity and vibrancy to any room."
+    },
     {
         id: 3,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Spring Plant",
+        imageUrl: "https://images.unsplash.com/photo-1584589167171-541ce45f1eea?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        title: "Foliage Plant",
         price: 10,
         rating: 1.55,
-        category: "Indoor plant",
-
-details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."    },
+        category: "Outdoor plant",
+        details: "The Green Foliage plant is admired for its lush, vibrant leaves that add a refreshing, natural touch to any space."
+    },
     {
         id: 4,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Tulip",
+        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/files/ba22.jpg?v=1662954220",
+        title: "Grass",
         price: 50,
         rating: 5,
-        category: "Gift plant",
-  
-  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  },
+        category: "Decor plant",
+        details: "Decorative grass brings a touch of nature indoors with its sleek and minimalist design, perfect for modern interiors."
+    },
     {
         id: 5,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Tulip",
+        imageUrl: "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2021/12/banner-10-9.jpg",
+        title: "Saccula Plant",
+        category: "Gift plant",
         price: 20,
         rating: 5,
-        category: "Indoor plant",
-
-details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."    },
+        details: "Saculla plants are known for their lush green foliage and are often gifted for their elegance and easy care."
+    },
     {
         id: 6,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Tulip",
+        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/files/ba8.png?v=1662622937",
+        title: "Spring Plant",
+        category: "Office Decor plant",
         price: 25,
         rating: 5,
-        category: "Office plant",
-
-details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."    },
+        details: "Spring plants bring a refreshing vibe to office spaces with their bright green leaves and minimal upkeep requirements."
+    },
     {
         id: 7,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Tulip",
+        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/files/ba21.jpg?v=1662954220",
+        title: "Bonsai",
         price: 40,
         rating: 1,
-        category: "Outdoor plant",
-        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        category: "Indoor plant",
+        details: "Bonsai is the Japanese art of cultivating miniature trees, emphasizing patience, balance, and natural beauty."
     },
     {
         id: 8,
-        imageUrl: "https://gabtor-store-demo.myshopify.com/cdn/shop/products/1_bfa8b69d-29a9-42fa-bb73-cef92fd91d9a.jpg?v=1662541921",
-        title: "Tulip",
+        imageUrl: "https://images.unsplash.com/photo-1578687595593-31fafb682273?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        title: "Westwood Gardens succulents",
         price: 40,
         rating: 1,
         category: "Outdoor plant",
-        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        details: "Westwood Gardens succulents are known for their hardy, low-maintenance plants that thrive in various environments. They are perfect for beginners and seasoned gardeners."
     },
     {
         id: 9,
@@ -78,9 +78,32 @@ details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
         price: 40,
         rating: 1,
         category: "Outdoor plant",
-        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        details: "Tulip flowers are a favorite choice for gardeners, offering bright colors and graceful shapes that enhance outdoor spaces."
     }
 ];
+
+
+const reviews = [
+    {
+        name: "John Doe",
+        email: "john@example.com",
+        image: "https://randomuser.me/api/portraits/men/1.jpg",
+        review: "Great service and wonderful product quality! Highly recommended."
+    },
+    {
+        name: "Jane Smith",
+        email: "jane@example.com",
+        image: "https://randomuser.me/api/portraits/women/2.jpg",
+        review: "The support team was fantastic. Very quick to respond and assist."
+    },
+    {
+        name: "Mark Johnson",
+        email: "mark@example.com",
+        image: "https://randomuser.me/api/portraits/men/3.jpg",
+        review: "I am delighted with my purchase! Will definitely shop here again."
+    }
+];
+//carousel
 document.addEventListener('DOMContentLoaded', () => {
     const items = document.querySelectorAll('.carousel .item');
     const thumbnails = document.querySelectorAll('.thumb li');
@@ -105,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(autoSlideInterval);
             currentIndex = index;
             changeSlide(currentIndex);
-            autoSlideInterval = setInterval(nextSlide, 5000); 
+            autoSlideInterval = setInterval(nextSlide, 5000);
         });
     });
 
@@ -113,6 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     changeSlide(currentIndex);
 });
 
+//products
 
 let currentPage = 1;
 const itemsPerPage = 3;
@@ -186,26 +210,7 @@ document.getElementById('search-input').addEventListener('input', (e) => {
 
 paginate();
 
-const reviews = [
-    {
-        name: "John Doe",
-        email: "john@example.com",
-        image: "https://randomuser.me/api/portraits/men/1.jpg",
-        review: "Great service and wonderful product quality! Highly recommended."
-    },
-    {
-        name: "Jane Smith",
-        email: "jane@example.com",
-        image: "https://randomuser.me/api/portraits/women/2.jpg",
-        review: "The support team was fantastic. Very quick to respond and assist."
-    },
-    {
-        name: "Mark Johnson",
-        email: "mark@example.com",
-        image: "https://randomuser.me/api/portraits/men/3.jpg",
-        review: "I am delighted with my purchase! Will definitely shop here again."
-    }
-];
+//review section
 
 let currentIndex = 0;
 

@@ -245,5 +245,23 @@ document.getElementById("next-btn").addEventListener("click", () => {
     displayReview(currentIndex);
 });
 
-// Initial display
 displayReview(currentIndex);
+
+//newsletter
+function validateForm() {
+    const emailInput = document.getElementById("email");
+    const errorMessage = document.getElementById("error-message");
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(emailInput.value)) {
+        errorMessage.textContent = "Please enter a valid email address.";
+        errorMessage.style.display = "block";
+        return false; 
+    }
+
+    
+    errorMessage.style.display = "none";
+    alert("Thank you for subscribing!");
+    return true; 
+}
+

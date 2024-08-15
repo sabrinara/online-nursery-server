@@ -8,9 +8,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    overflow: hidden;
-}
+
 
 html,
 body {
@@ -171,6 +169,139 @@ body {
 
 
 /* product-section */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding-bottom: 50px;
+
+}
+
+.search-sort-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#search-input {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sort-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 0 20px 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #0a4221;
+}
+
+.product-card:hover h3 {
+    color: #155f34;
+    animation: ani 0.5s ease-in-out;
+}
+
+.product-card p {
+    margin: 8px 20px;
+    font-size: 16px;
+    
+    text-align: start;
+}
+
+.product-card p span {
+    font-weight: bold;
+    color: #0a4221
+    
+}
+
+.product-card h5 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    position: absolute; 
+    top: 150px; 
+    left: 0;
+    right: 0;
+    background-color: rgba(228, 247, 233, 0.8); 
+    padding: 10px;
+}
+
+.product-card:hover h5 {
+    opacity: 1; 
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #a7e2bf;
+    cursor: pointer;
+    color: #0a4221;
+
+}
+
+.pagination button.active {
+    background-color: #136334;
+    color: white;
+    border: 1px solid #136334;
+}
 
 
 /* small device  */

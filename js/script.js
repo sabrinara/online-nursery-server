@@ -185,3 +185,60 @@ document.getElementById('search-input').addEventListener('input', (e) => {
 });
 
 paginate();
+
+const reviews = [
+    {
+        name: "John Doe",
+        email: "john@example.com",
+        image: "https://randomuser.me/api/portraits/men/1.jpg",
+        review: "Great service and wonderful product quality! Highly recommended."
+    },
+    {
+        name: "Jane Smith",
+        email: "jane@example.com",
+        image: "https://randomuser.me/api/portraits/women/2.jpg",
+        review: "The support team was fantastic. Very quick to respond and assist."
+    },
+    {
+        name: "Mark Johnson",
+        email: "mark@example.com",
+        image: "https://randomuser.me/api/portraits/men/3.jpg",
+        review: "I am delighted with my purchase! Will definitely shop here again."
+    }
+];
+
+let currentIndex = 0;
+
+const reviewCard = document.getElementById("review-card");
+const userName = document.getElementById("user-name");
+const userEmail = document.getElementById("user-email");
+const userImage = document.getElementById("user-image");
+const userReview = document.getElementById("user-review");
+
+function displayReview(index) {
+    userName.textContent = reviews[index].name;
+    userEmail.textContent = reviews[index].email;
+    userImage.src = reviews[index].image;
+    userReview.textContent = reviews[index].review;
+
+    reviewCard.style.opacity = "0";
+    reviewCard.style.transform = "scale(0.9)";
+
+    setTimeout(() => {
+        reviewCard.style.opacity = "1";
+        reviewCard.style.transform = "scale(1)";
+    }, 100);
+}
+
+document.getElementById("prev-btn").addEventListener("click", () => {
+    currentIndex = (currentIndex === 0) ? reviews.length - 1 : currentIndex - 1;
+    displayReview(currentIndex);
+});
+
+document.getElementById("next-btn").addEventListener("click", () => {
+    currentIndex = (currentIndex === reviews.length - 1) ? 0 : currentIndex + 1;
+    displayReview(currentIndex);
+});
+
+// Initial display
+displayReview(currentIndex);

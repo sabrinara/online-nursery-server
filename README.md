@@ -85,5 +85,5 @@ This project is a full-stack web application that allows users to browse product
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mohiminulsemon/Online-Nursery-Project.git
+   git clone https://github.com/sabrinara/online-nursery-server.git
    cd nursery-website

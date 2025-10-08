@@ -12,7 +12,7 @@ A comprehensive nursery website where users can browse and purchase various plan
 
 This project is a full-stack web application that allows users to browse products, add them to the cart, and place orders with multiple payment options, including Stripe and Cash on Delivery (COD). The admin can manage products and categories, including adding, updating, and deleting items. The project also includes features like real-time UI updates, pagination, filtering, and search functionality to improve the user experience.
 
-### Live link : https://onlinenursery.netlify.app/
+### Live link : https://naturenest-online-nursery.netlify.app
 
 ## Features
 
